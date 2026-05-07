@@ -1,0 +1,2 @@
+- having errors with SSH, but that is fixed. 
+- git commit does not push files into GitHub, I used git push origin main  
