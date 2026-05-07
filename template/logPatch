@@ -1,0 +1,105 @@
+#Detailed View
+git log --patch
+commit d7cc0af96fa7ba5fd7cf27712d6729c61b906be2 (HEAD -> main, origin/main, origin/HEAD)
+Author: Eddy Retana <eddyretanav14@gmail.com>
+Date:   Thu May 7 11:00:33 2026 -0600
+
+    adding html page
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..1f77f4e
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>ScriptClub Testing</title>
++</head>
++<body>
++    <h1>Hello World</h1>
++    <p>This is my first hosted page for ScriptClub 26.</p>
++</body>
++</html>
+
+commit 95faa3a43812d0939c76a59d40c4c0badcf94f49
+Author: Eddy Retana <eddyretanav14@gmail.com>
+Date:   Thu May 7 10:57:25 2026 -0600
+
+    modifying testfile.txt
+
+diff --git a/template/testfile.txt b/template/testfile.txt
+index 1865c8a..ce10e40 100644
+--- a/template/testfile.txt
++++ b/template/testfile.txt
+@@ -1,2 +1,2 @@
+ This is for testing.
+-Script Club 
++Script Club 2026 - eretana
+
+commit cb633b985b07e68190e6ed060dda5559201e8e59
+Author: Eddy Retana <eddyretanav14@gmail.com>
+Date:   Thu May 7 10:55:58 2026 -0600
+
+    adding new folder
+
+diff --git a/template/testfile.txt b/template/testfile.txt
+new file mode 100644
+index 0000000..1865c8a
+--- /dev/null
++++ b/template/testfile.txt
+@@ -0,0 +1,2 @@
++This is for testing.
++Script Club 
+
+commit c4c0b4d6e7ff15f1f0fde06338af3b1edb0dc7f1
+Author: Eddy Retana <eddyretanav14@gmail.com>
+Date:   Thu May 7 10:53:56 2026 -0600
+
+    updating README.md
+
+diff --git a/README.md b/README.md
+index 1168a09..7b4b566 100644
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,4 @@
+ # ScriptClub
+ Repository for ScriptClub 26
+ 
+-This is for testing first commit
++This is for testing. 
+
+commit f6eb06a5a0a2a0add862eeb8faf89b0e37a8a623
+Author: Eddy Retana <eddyretanav14@gmail.com>
+Date:   Thu May 7 10:44:28 2026 -0600
+
+    First commit - testing
+
+diff --git a/README.md b/README.md
+index 3b08c07..1168a09 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,4 @@
+ # ScriptClub
+ Repository for ScriptClub 26
++
++This is for testing first commit
+
+commit 77a6462b7691aec2d67f904169e05e8859cba394
+Author: Eddy <32500319+eddyrv14@users.noreply.github.com>
+Date:   Thu May 7 10:31:26 2026 -0600
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3b08c07
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# ScriptClub
++Repository for ScriptClub 26
+(END)
+

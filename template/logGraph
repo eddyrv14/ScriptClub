@@ -1,0 +1,9 @@
+# seeing history, better when we start using branches: Visual Tree
+ git log --graph --oneline --all
+* d7cc0af (HEAD -> main, origin/main, origin/HEAD) adding html page
+* 95faa3a modifying testfile.txt
+* cb633b9 adding new folder
+* c4c0b4d updating README.md
+* f6eb06a First commit - testing
+* 77a6462 Initial commit
+
